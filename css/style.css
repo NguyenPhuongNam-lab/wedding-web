@@ -23,7 +23,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: #000000;
   background: #fff;
 }
 
@@ -376,14 +376,14 @@ figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  /* height: 850px; */
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #fh5co-event .display-t,
 #fh5co-event .display-tc {
-  height: 700px;
+  /* height: 700px; */
   display: table;
   width: 100%;
 }
@@ -423,7 +423,7 @@ figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  /* border: 2px solid rgba(0, 0, 0, 0.5); */
   padding: 30px;
   width: 100%;
   float: left;
@@ -442,7 +442,7 @@ figure {
 #fh5co-event .event-wrap h3 {
   font-size: 14px;
   color: #000000;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
   display: block;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -870,9 +870,9 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 65px;
+  font-size: 100px;
   line-height: 1.5;
-  font-family: "Amsterdam", Arial, serif;
+  font-family: "Alex Brush", cursive;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -977,7 +977,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1043,7 +1043,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Amsterdam", Arial, serif;
+  font-family: "Alex Brush", cursive;
   color: #646464;
   font-size: 30px;
 }
@@ -1165,8 +1165,8 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #646464;
-  font-family: "Amsterdam", Arial, serif;
+  color: #000000 !important;
+  font-family: "Alex Brush", cursive;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1176,7 +1176,7 @@ form label {
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #000000;
 }
 .fh5co-heading span {
   text-transform: uppercase;
@@ -1873,6 +1873,7 @@ form label {
 }
 
 .flip-clock-wrapper ul li a div div.inn {
+  color: #fff !important;
   font-size: 55px !important;
 }
 
@@ -1881,7 +1882,8 @@ form label {
 }
 
 .font-text {
-  font-family: "Amsterdam", Arial, serif;
+  font-family: "Alex Brush", cursive;
+  font-size: 39px;
 }
 
 .families {
@@ -1889,6 +1891,7 @@ form label {
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 0.98em;
+  line-height: 0.5 !important;
 }
 .families div {
   text-align: center;
@@ -2021,5 +2024,83 @@ canvas {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+.font-title {
+  font-size: 30px;
+  margin-bottom: unset !important;
+}
+
+.invitation-box {
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 10px 0;
+}
+.invitation-box h3 {
+  margin: 0;
+  color: #8b0000;
+}
+.invitation-box .date {
+  font-size: 13px;
+  margin: 10px 0;
+  /* font-weight: bold; */
+}
+.invitation-box .lunar {
+  font-size: 13px;
+  color: #777;
+}
+.button {
+  display: block;
+  margin: 12px auto;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.confirm {
+  background-color: #aaa;
+  color: white;
+}
+.gift {
+  background-color: #b80000;
+  color: white;
+}
+.save-date {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.calendar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+.calendar span {
+  font-weight: bold;
+  color: #b80000;
+  padding: 0 10px;
+  width: 40px;
+}
+.calendar-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 0;
+}
+.calendar-box div {
+  line-height: 25px;
+  padding: 0px 11px;
+  width: 40px;
+  /* background-color: #eee; */
+  border-radius: 4px;
+  /* min-width: 38px; */
+}
+@media (max-width: 480px) {
+  .photos img {
+    width: 30%;
   }
 }

@@ -34,6 +34,11 @@
     <meta property="og:image:type" content="image/jpeg" />
 
     <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
       rel="stylesheet"
       type="text/css"
@@ -117,11 +122,22 @@
                   class="display-tc animate-box"
                   data-animate-effect="fadeIn"
                 >
-                  <h1 style="margin-bottom: 30px">Phương Nam &amp; Vũ Nga</h1>
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: center;
+                      align-items: baseline;
+                    "
+                  >
+                    <h1 style="margin-bottom: 30px">Phương Nam</h1>
+                    <h1 style="font-size: 50px; padding: 0 20px">&#9825;</h1>
+                    <h1>Vũ Nga</h1>
+                  </div>
+
                   <br />
                   <!-- <img src="images/fprint.png" alt="Phương Nam + Vũ Nga" /> -->
-                  <h2 style="padding-top: 185px">06.07.2025</h2>
-                  <h2 style="font-size: 22px">
+                  <!-- <h2 style="padding-top: 450px">06.07.2025</h2> -->
+                  <h2 style="font-size: 28px; padding-top: 475px">
                     Chúng mình sẽ về chung một nhà sau...
                   </h2>
                   <div>
@@ -148,29 +164,48 @@
 
       <div class="fh5co-section-gray" style="padding-top: 5rem">
         <div class="container">
-          <div class="families">
-            <div>
-              <strong>Nhà Trai</strong>
-              <br />
-              Bà Phạm Thị Minh Nguyệt<br />
-            </div>
-            <div>
-              <strong>Nhà Gái</strong>
-              Ông Vũ Hữu Tới<br />
-              Bà Trần Thị Vy<br />
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <h5 class="font-text font-title">Hôn nhân là chuyện cả đời,</h5>
+              <h5 class="font-text font-title">
+                Yêu người vừa ý, lấy người mình thương
+              </h5>
             </div>
           </div>
           <div class="families">
-            <div>Chú Rể<br /><b class="font-text">Phương Nam</b></div>
+            <div>
+              <span class="font-text" style="color: #f95b5b">Phương Nam</span>
+            </div>
 
-            <div>Cô Dâu<br /><b class="font-text">Vũ Nga</b></div>
+            <div>
+              <span class="font-text" style="color: #f95b5b">Vũ Nga</span>
+            </div>
           </div>
+          <div class="families">
+            <div style="font-size: 0.9em">Đẹp trai, "6" múi, yêu vợ<br /></div>
+            <div style="font-size: 0.9em">Ngoan, xinh, yêu<br /></div>
+          </div>
+
           <div class="photos">
-            <div class="photo-card">
+            <div class="photo-card" style="align-items: end">
               <img src="images/AnhNamDZ.jpg" alt="Chú rể" />
             </div>
-
-            <div class="photo-card">
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              "
+            >
+              <img
+                src="images/heart.png"
+                alt="Phương Nam + Vũ Nga"
+                width="165px"
+              />
+            </div>
+            <div class="photo-card" style="align-items: start">
               <img src="images/AnhNgaBeo.jpg" alt="Cô dâu" />
             </div>
           </div>
@@ -178,77 +213,93 @@
       </div>
 
       <div id="fh5co-event" class="fh5co-bg">
-        <div class="overlay"></div>
         <div class="container">
           <div class="row">
             <div
               class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+              style="margin-bottom: 1em"
             >
-              <h2>Events</h2>
+              <h2>Thư mời</h2>
             </div>
           </div>
           <div class="row">
-            <div class="display-t">
-              <div class="display-tc">
-                <div class="col-md-10 col-md-offset-1">
-                  <div class="col-md-6 col-sm-6 text-center">
-                    <div class="event-wrap animate-box">
-                      <h3>Nhà trai</h3>
-                      <div class="event-col">
-                        <i class="icon-calendar"></i>
-                        <span>06.07.2025</span>
+            <div class="invitation-box">
+              <h3 style="font-size: 30px">Trân trọng kính mời</h3>
+              <p>Tham dự bữa cơm thân mật chung vui cùng gia đình chúng tôi</p>
+
+              <div class="display-t">
+                <div class="display-tc">
+                  <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-6 col-sm-6 text-center">
+                      <div class="event-wrap animate-box">
+                        <h3>Tiệc nhà trai</h3>
+                        <div class="event-col">
+                          <i class="icon-calendar"></i>
+                          <span>06.07.2025</span>
+                        </div>
+                        <div class="event-col">
+                          <i class="icon-clock"></i>
+                          <span>11:00 AM</span>
+                        </div>
+                        <p>
+                          <span>
+                            <b> Nhà hàng 500 </b>
+                          </span>
+                          <span>
+                            <b> Đường Ba Lan, Hạ Long, Quảng Ninh</b>
+                          </span>
+                        </p>
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.83260764864886!2d107.02033976877888!3d20.979736976278925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a58a66ebc4491%3A0xf534d2eb38993122!2zMjAgTMOqIFbEg24gSMawdSwgR2nhur9uZyDEkMOheSwgSOG6oSBMb25nLCBRdeG6o25nIE5pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1750221790246!5m2!1svi!2s"
+                          width="300"
+                          height="200"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
-                      <div class="event-col">
-                        <i class="icon-clock"></i>
-                        <span>11:00 AM</span>
-                      </div>
-                      <p>
-                        <span>
-                          <b> Nhà hàng 500 </b>
-                        </span>
-                        <span>
-                          <b> Đường Ba Lan, Hạ Long, Quảng Ninh.</b>
-                        </span>
-                      </p>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.83260764864886!2d107.02033976877888!3d20.979736976278925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a58a66ebc4491%3A0xf534d2eb38993122!2zMjAgTMOqIFbEg24gSMawdSwgR2nhur9uZyDEkMOheSwgSOG6oSBMb25nLCBRdeG6o25nIE5pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1750221790246!5m2!1svi!2s"
-                        width="300"
-                        height="200"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                      ></iframe>
                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 text-center">
-                    <div class="event-wrap animate-box">
-                      <h3>Nhà gái</h3>
-                      <div class="event-col">
-                        <i class="icon-calendar"></i>
-                        <span>05.07.2025</span>
+                    <div class="col-md-6 col-sm-6 text-center">
+                      <div class="event-wrap animate-box">
+                        <h3>Tiệc nhà gái</h3>
+                        <div class="event-col">
+                          <i class="icon-calendar"></i>
+                          <span>05.07.2025</span>
+                        </div>
+                        <div class="event-col">
+                          <i class="icon-clock"></i>
+                          <span>16:00 PM</span>
+                        </div>
+                        <p>
+                          <span>
+                            <b> Nhà riêng </b>
+                          </span>
+                          <span>
+                            <b>Quang Châu, Việt Yên, Bắc Giang</b>
+                          </span>
+                        </p>
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1105.8413397294837!2d106.0971657463698!3d21.208357962298724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEyJzI5LjciTiAxMDbCsDA1JzUzLjQiRQ!5e0!3m2!1svi!2sus!4v1750260900488!5m2!1svi!2sus"
+                          width="300"
+                          height="200"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
-                      <div class="event-col">
-                        <i class="icon-clock"></i>
-                        <span>16:00 PM</span>
-                      </div>
-                      <p>
-                        <span>
-                          <b> Nhà riêng </b>
-                        </span>
-                        <span>
-                          <b>Quang Châu, Việt Yên, Bắc Giang</b>
-                        </span>
-                      </p>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1105.8413397294837!2d106.0971657463698!3d21.208357962298724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEyJzI5LjciTiAxMDbCsDA1JzUzLjQiRQ!5e0!3m2!1svi!2sus!4v1750260900488!5m2!1svi!2sus"
-                        width="300"
-                        height="200"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                      ></iframe>
+                    </div>
+
+                    <div class="save-date">
+                      <h4>
+                        <span style="font-size: 35px" class="font-text"
+                          >Sự hiện diện của Quý vị<br
+                        /></span>
+                        <span style="font-size: 35px" class="font-text"
+                          >là niềm vinh hạnh cho gia đình chúng tôi</span
+                        >
+                      </h4>
                     </div>
                   </div>
                 </div>
@@ -263,8 +314,9 @@
           <div class="row">
             <div
               class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+              style="margin-bottom: 1em"
             >
-              <h2 style="color: #000000">Gallery</h2>
+              <h2 style="color: #000000">Album hình cưới</h2>
             </div>
           </div>
           <div class="row row-bottom-padded-md">
@@ -334,8 +386,11 @@
       <div id="fh5co-services" class="fh5co-section-gray">
         <div class="container">
           <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 style="color: #000000">Highlights</h2>
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading"
+              style="margin-bottom: 1em"
+            >
+              <h2 style="color: #000000">Video cưới</h2>
             </div>
           </div>
 
