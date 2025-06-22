@@ -322,7 +322,21 @@ figure {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  background-image: url("../images/NQL08253.jpg");
 }
+
+@media screen and (max-width: 768px) {
+  .fh5co-cover {
+    height: 1000px;
+    background-position-x: -110px !important;
+    background-image: url("../images/NQL08307_(2)a.jpg");
+  }
+
+  .heart-photo {
+    display: none !important;
+  }
+}
+
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
@@ -752,7 +766,8 @@ figure {
   }
 }
 #fh5co-gallery-list li.one-third {
-  width: 32.3%;
+  width: 23.7%;
+  background-position: top center;
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
@@ -2099,8 +2114,21 @@ canvas {
   border-radius: 4px;
   /* min-width: 38px; */
 }
-@media (max-width: 480px) {
-  .photos img {
-    width: 30%;
+
+video {
+  max-height: 570px;
+}
+
+.money-text {
+  font-size: 16px !important;
+  margin-bottom: unset !important;
+}
+.footer-text {
+  font-family: "Amsterdam", Arial, serif;
+}
+
+@media screen and (max-width: 768px) {
+  .video-responsive {
+    padding-bottom: 15em !important;
   }
 }
