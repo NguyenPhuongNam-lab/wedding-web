@@ -113,6 +113,10 @@ figure {
   .fh5co-nav {
     padding: 20px 0;
   }
+
+  .families div {
+    width: 48% !important;
+  }
 }
 .fh5co-nav #fh5co-logo {
   font-size: 40px;
@@ -334,6 +338,10 @@ figure {
 
   .heart-photo {
     display: none !important;
+  }
+
+  .font-text {
+    font-size: 29px !important;
   }
 }
 
@@ -1903,14 +1911,14 @@ form label {
 
 .families {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 10px;
   font-size: 0.98em;
   line-height: 0.5 !important;
 }
 .families div {
   text-align: center;
-  width: 48%;
+  width: 40%;
   background: #f8f6f6;
   border-radius: 8px;
   padding: 8px 6px;
@@ -2125,10 +2133,4 @@ video {
 }
 .footer-text {
   font-family: "Amsterdam", Arial, serif;
-}
-
-@media screen and (max-width: 768px) {
-  .video-responsive {
-    padding-bottom: 15em !important;
-  }
 }
