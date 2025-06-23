@@ -2134,3 +2134,13 @@ video {
 .footer-text {
   font-family: "Amsterdam", Arial, serif;
 }
+
+#video-popup video {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+}
+
+.mfp-container {
+  z-index: 9999 !important;
+}

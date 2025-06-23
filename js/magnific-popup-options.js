@@ -48,7 +48,6 @@ $(document).ready(function () {
 
   var magnifVideo = function () {
     $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
-      disableOn: 700,
       type: "inline",
       mainClass: "mfp-fade",
       removalDelay: 160,
